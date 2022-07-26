@@ -1,0 +1,14 @@
+<!-- Copyright 2019, Vajel -->
+<Ui>
+    <Frame name='CharacterTooltip'>
+        <Scripts>
+            <OnLoad>
+                self:RegisterEvent("UPDATE_MOUSEOVER_UNIT")
+                self:RegisterEvent("ADDON_LOADED")
+            </OnLoad>
+            <OnEvent>
+                Character_Tooltip(self, event, ...)
+            </OnEvent>
+        </Scripts>
+    </Frame>
+</Ui>

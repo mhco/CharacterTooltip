@@ -1,0 +1,4 @@
+package-as: CharacterTooltip
+
+ignore:
+  - docs

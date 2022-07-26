@@ -1,0 +1,8 @@
+## Interface: 20504
+## Title: Character Tooltip
+## Notes: Displays the character's data in the hover tooltip
+## Author: Vajel, Serrol
+## SavedVariables: CharacterTooltipOptions
+
+CharacterTooltip.lua
+CharacterTooltip.xml
