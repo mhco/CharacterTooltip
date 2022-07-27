@@ -7,7 +7,7 @@ function initSlash ()
     SLASH_CHARACTERTOOLTIP1 = "/charactertooltip"
     SlashCmdList["CHARACTERTOOLTIP"] = function(msg)
         msg = msg:lower()
-        if (msg == '' or msg == 'version' or msg == 'v') then
+        if (msg == '' or msg == 'version' or msg == 'v' or msg == '-v') then
             local version = GetAddOnMetadata("CharacterTooltip", "Version");
             print(AddonColor .. "Character Tooltip|r version " .. version .. ". Type '/charactertooltip help' for more info.")
 		elseif (msg == 'help' or msg == 'h') then
@@ -22,7 +22,7 @@ function initSlash ()
         elseif (msg == 'index' or msg == 'rank' or msg == 'ranks' or msg == 'guildrank' or msg == 'guildranks') then
 			toggleGuildRankIndex()
 		elseif (msg ~= '') then
-			print(AddonColor .. "Character Tooltip |rcouldn't recognize what you wanted to do. Please look at your typing and try again.")
+			print(AddonColor .. "Character Tooltip|r couldn't recognize what you wanted to do. Please look at your typing and try again.")
         end
 
 		return
