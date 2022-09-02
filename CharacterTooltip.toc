@@ -1,4 +1,4 @@
-## Interface: 20504
+## Interface: 30400
 ## Title: Character Tooltip
 ## Notes: Displays the character's data in the hover tooltip
 ## Version: v2.5.4
