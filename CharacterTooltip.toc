@@ -1,6 +1,7 @@
 ## Interface: 30400
 ## Interface-Classic: 11403
 ## Interface-BCC: 20504
+## Interface-Wrath: 30400
 ## Title: Character Tooltip
 ## Notes: Displays the character's data in the hover tooltip
 ## Version: v3.4.0
